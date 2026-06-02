@@ -11,6 +11,6 @@ outputs: #⬅️ Outputs
     description: 'The time we greeted you'
 runs:
   using: 'docker' #⬅️ Declaration that this is a Docker action
-  image: 'ghcr.io/OWNER/ACTION_NAME:1.0.0'
+  image: 'ghcr.io/incoorgak/skills-write-javascript-actions_2:1.0.0'
   args:
     - ${{ inputs.who-to-greet }} #⬅️ Docker runtime parameters
